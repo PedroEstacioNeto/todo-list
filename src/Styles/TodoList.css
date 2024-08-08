@@ -1,0 +1,72 @@
+.container-fluid {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.todolist {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todolist form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todolist input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+.todolist button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todolist button[type="submit"]:hover {
+    background-color: blue;
+}
+
+.todolist table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+.todolist table th,
+.todolist table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.todolist table th {
+    background-color: #f1f1f1;
+}
+
+.todolist table td  button {
+    background-color: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.todolist table td  button:hover {
+    color: blue;
+}
